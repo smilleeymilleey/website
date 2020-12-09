@@ -3,10 +3,11 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 
 
-funtcion Home() {
+function Home() {
   return (
     <>
-    <HeroSection />
+      <HeroSection />
+  
     </>
   );
 }
