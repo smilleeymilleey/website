@@ -24,6 +24,18 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+a.social-icon-link.twitter {
+  font-size: 16px;
+}
+
+a.social-icon-link.instagram {
+  font-size: 16px;
+}
+
+a.social-icon-link.linkedin {
+  font-size: 16px;
+}
+
 .footer-subscription-heading {
   margin-bottom: 24px;
   font-size: 24px;

@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure to receive updates on new blog posts!
+          Join the Adventure To Receive Updates On New Blog Posts!
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -38,7 +38,7 @@ function Footer() {
             <h2>Contact</h2>
             <Link to='/'>214-868-7223</Link>
             <Link to='/'>Cmiley@protonmail.com</Link>
-            
+
 
           </div>
         </div>

@@ -17,27 +17,28 @@ function Cards() {
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-
-              path='/services'
+              text='Check Out My Blog'
+              to="/blog"
+              path='/blog'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Twitter Clone'
               label='Mystery'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='*Coming Soon*'
+
               label='Adventure'
               path='/products'
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='*Coming Soon*'
               label='Adrenaline'
               path='/sign-up'
             />
