@@ -7,6 +7,13 @@ h1 {
   text-align: center;
 }
 
+.img.cards__item__img {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+
 .cards__container {
   display: flex;
   flex-flow: column;

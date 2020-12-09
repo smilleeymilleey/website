@@ -9,14 +9,14 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
+            <CardItem className="mystory"
+              src='me.jfif'
               to="/services"
               text='My Story'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='instagram.png'
               text='Check Out My Blog'
               to="/blog"
               path='/blog'
@@ -24,13 +24,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='tclone.png'
               text='Twitter Clone'
               label='Mystery'
               path='/products'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src=''
               text='*Coming Soon*'
 
               label='Adventure'
