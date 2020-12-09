@@ -35,31 +35,44 @@ function Navbar() {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                About
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Projects
-              </Link>
-            </li>
 
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
+              <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  Home
+                  </Link>
+              </li>
+
+                <li className='nav-item'>
+                  <Link
+                    to='/services'
+                    className='nav-links'
+                    onClick={closeMobileMenu}
+                    >
+                    About
+                  </Link>
+                </li>
+
+                  <li className='nav-item'>
+                    <Link
+                      to='/products'
+                      className='nav-links'
+                      onClick={closeMobileMenu}
+                      >
+                      Projects
+                    </Link>
+                  </li>
+
+                  <li className='nav-item'>
+                    <Link
+                      to='/Blog'
+                      className='nav-links'
+                      onClick={closeMobileMenu}
+                      >
+                      Blog
+                    </Link>
+                  </li>
             <li>
               <Link
                 to='/sign-up'
