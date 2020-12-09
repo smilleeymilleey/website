@@ -2,6 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+
 function Cards() {
   return (
     <div className='cards'>
@@ -18,7 +19,7 @@ function Cards() {
             <CardItem
               src='instagram.png'
               text='Check Out My Blog'
-              to="/blog"
+
               path='/blog'
             />
           </ul>
@@ -32,7 +33,6 @@ function Cards() {
             <CardItem
               src=''
               text='*Coming Soon*'
-
               label='Adventure'
               path='/products'
             />

@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Caitlyn Miley
-            <i class='fas fa-globe-americas' />
+            <i className='fas fa-globe-americas' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -66,7 +66,7 @@ function Navbar() {
 
                   <li className='nav-item'>
                     <Link
-                      to='/blog'
+                      to='/Blog'
                       className='nav-links'
                       onClick={closeMobileMenu}
                       >
@@ -75,7 +75,7 @@ function Navbar() {
                   </li>
                     <li>
                       <Link
-                          to='/sign-up'
+                          to='/Contact'
                           className='nav-links-mobile'
                           onClick={closeMobileMenu}
                           >
