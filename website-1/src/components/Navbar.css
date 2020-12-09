@@ -117,7 +117,12 @@
     position: absolute;
     top: 0;
     left: 0;
+
     transform: translate(25%, 50%);
+  }
+
+  .fa-globe-americas {
+    padding-left: 20px;
   }
 
   .menu-icon {
@@ -128,6 +133,7 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+
   }
 
   .fa-times {
