@@ -46,17 +46,36 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/'>Programming Videos</Link>
+
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link className="Instagram"
+              class='social-icon-link instagram'
+              to='//instagram.com/smilleeymilley/'
+              target='_blank'
+              aria-label='Instagram'
+            > Instagram
+            </Link>
+            <Link className="Instagram"
+              class='social-icon-link twitter'
+              to='//twitter.com/smilleymilleey'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              Twitter
+            </Link>
+
+            <Link className="Instagram"
+              class='social-icon-link twitter'
+              to='//linkedin.com/in/caitlyn-miley1/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              LinkedIn
+            </Link>
+
           </div>
         </div>
       </div>
@@ -64,23 +83,17 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+              Caitlyn Miley
+              <i class='fas fa-globe-americas' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>Caitlyn Miley © 2020</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
+
+
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='//instagram.com/smilleeymilley/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -96,7 +109,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='//twitter.com/smilleymilleey'
               target='_blank'
               aria-label='Twitter'
             >
@@ -104,7 +117,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='//linkedin.com/in/caitlyn-miley1/'
               target='_blank'
               aria-label='LinkedIn'
             >
