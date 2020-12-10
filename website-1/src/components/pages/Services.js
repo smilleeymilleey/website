@@ -1,8 +1,9 @@
 
 import React from 'react';
 import '../../App.css';
-import AboutCards from '../AboutCards';
 import AboutHero from '../AboutHero';
+import AboutCards from '../AboutCards';
+
 import Footer from '../Footer';
 
     function Services() {
