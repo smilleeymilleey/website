@@ -5,14 +5,16 @@ import AboutHero from '../AboutHero';
 import Skills from '../Skills';
 
 
+
 import Footer from '../Footer';
 
     function Services() {
       return (
         <>
-    
+
           <AboutHero />
           <Skills />
+
           <Footer />
         </>
       );

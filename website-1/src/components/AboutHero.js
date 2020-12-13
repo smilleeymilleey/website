@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import './AboutHero.css';
 
 
 
@@ -8,18 +8,24 @@ import { Button } from './Button';
 function AboutHero() {
   return (
     <div className='hero-container'>
-      <video src='/PexelsVideos1192113.mp4' autoPlay loop muted />
-      <h1>Hey there!</h1>
-      <p>This is my story!</p>
+    <h1 className="welcome"> My Story</h1>
+      <h2 className="intro"> My name is Caitlyn Miley and I am a Full Stack Web Developer!</h2>
+        <table className="table">
+          <tr>
+            <th>I have been programming for the past year and have worked on:
+            </th>
+          </tr>
+        </table>
+            <ul className="list">
+              <li>E-commerce</li>
+              <li>Social Media</li>
+            </ul>
 
-      <div className='Abouthero-btns'>
-      
 
 
 
+        <img className="aboutMePic" src="/meinside.jpg"></img>
 
-
-      </div>
     </div>
   );
 }
