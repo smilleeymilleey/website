@@ -10,7 +10,7 @@ import Footer from '../Footer';
     function Services() {
       return (
         <>
-        <h1 className='services'>About</h1>
+    
           <AboutHero />
           <Skills />
           <Footer />

@@ -9,20 +9,12 @@ function AboutHero() {
   return (
     <div className='hero-container'>
       <video src='/PexelsVideos1192113.mp4' autoPlay loop muted />
-      <h1>Testing New Component </h1>
-      <p>I'm a Full Stack Web Developer</p>
-      <div className='Abouthero-btns'>
-        <Button
-          className='Aboutbtns'
-          buttonStyle='Aboutbtn--outline'
-          buttonSize='Aboutbtn--large'
-        >
-          Check Out My Work!
-        </Button>
+      <h1>Hey there!</h1>
+      <p>This is my story!</p>
 
-        <div className="Skills">
-          <h1>These are my skills</h1>
-        </div>
+      <div className='Abouthero-btns'>
+      
+
 
 
 
