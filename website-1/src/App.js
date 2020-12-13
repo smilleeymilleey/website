@@ -7,7 +7,7 @@ import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 
 import Blog from './components/pages/Blog';
-import Contact from './components/pages/Contact';
+
 
 
 
@@ -20,7 +20,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
-          <Route path='/contact' component={Contact} />
+          
           <Route path='/Blog' component={Blog} />
         </Switch>
       </Router>

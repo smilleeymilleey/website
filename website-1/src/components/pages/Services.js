@@ -2,7 +2,8 @@
 import React from 'react';
 import '../../App.css';
 import AboutHero from '../AboutHero';
-import AboutCards from '../AboutCards';
+import Skills from '../Skills';
+
 
 import Footer from '../Footer';
 
@@ -11,7 +12,7 @@ import Footer from '../Footer';
         <>
         <h1 className='services'>About</h1>
           <AboutHero />
-          <AboutCards />
+          <Skills />
           <Footer />
         </>
       );
