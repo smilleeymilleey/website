@@ -6,15 +6,28 @@ function Qualifications () {
   return (
     <div className="hero-container">
       <h1 className='welcome'>Qualifications</h1>
+
         <div class="row">
           <div class="column">
               <img className="letter" src="letterofrec.png" alt="letter"></img>
+              <div className="overlay">
+                <div className="text">Hello World</div>
+                </div>
           </div>
-            <div class="column">
+
+
+            <div className="column">
               <img className="resume" src="resume1.png" alt="resume"></img>
+              <div className="overlay">
+                <div className="text">Hello World</div>
+                </div>
+
             </div>
-                <div class="column">
+                <div className="column">
                   <img className="coverletter" src="coverletter1.png" alt="coverletter"></img>
+                  <div className="overlay">
+                    <div className="text">Hello World</div>
+                    </div>
                 </div>
 
 </div>
