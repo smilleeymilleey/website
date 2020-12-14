@@ -2,8 +2,8 @@
 position: absolute;
 padding-right:5px;
 padding-left: 10%;
-width: 400px;
-height: 500px;
+width: 600px;
+height: 600px;
 padding-top: 0;
 padding-bottom: -50%;
 
@@ -34,9 +34,5 @@ padding-right: 40%;
 }
 
 .paragraph {
-  padding-right: 50%;
-}
-
-.skillsHeader {
   padding-right: 50%;
 }

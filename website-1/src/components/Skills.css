@@ -1,14 +1,11 @@
-.skillsHeader {
-
-}
 
 
-
-.welcome {
-  padding-right: 50% !important;
+.welcomeSkills {
+  padding-right: 60% !important;
 }
 
 canvas.chartjs-render-monitor {
-  height: 500px !important;
-  width: 900px !important;
+  height: 600px !important;
+  width: 1200px !important;
+
 }

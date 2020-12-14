@@ -9,7 +9,7 @@ function AboutHero() {
   return (
     <div className='hero-container'>
       <section>
-        <img className="meinside" alt="me" src="meinside.jpg"></img>
+        <img className="meinside" alt="me" src="meinside1.jpg"></img>
       </section>
 
         <h1 className="welcome"> About Me</h1>

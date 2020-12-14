@@ -23,9 +23,9 @@ export default class App extends React.Component {
     return (
 
       <div className="hero-container">
-        <h1 className="welcome"> Skills </h1>
+        <h1 className="welcomeSkills"> Skills </h1>
         <div className="graph">
-          
+
         <Bar
           data={state}
           options={{
