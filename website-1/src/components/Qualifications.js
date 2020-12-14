@@ -8,13 +8,13 @@ function Qualifications () {
       <h1 className='welcome'>Qualifications</h1>
         <div class="row">
           <div class="column">
-              <img className="letter" src="letter.png" alt="letter"></img>
+              <img className="letter" src="letterofrec.png" alt="letter"></img>
           </div>
             <div class="column">
-              <img className="resume" src="resume.png" alt="resume"></img>
+              <img className="resume" src="resume1.png" alt="resume"></img>
             </div>
                 <div class="column">
-                  <img className="coverletter" src="coverletter.png" alt="coverLetter"></img>
+                  <img className="coverletter" src="coverletter1.png" alt="coverletter"></img>
                 </div>
 
 </div>
