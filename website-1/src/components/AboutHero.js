@@ -8,7 +8,7 @@ import './AboutHero.css';
 function AboutHero() {
   return (
     <div className='hero-container'>
-    <h1 className="welcome"> My Story</h1>
+    <h1 className="welcome"> About Me</h1>
 
         <table className="table">
           <tbody>

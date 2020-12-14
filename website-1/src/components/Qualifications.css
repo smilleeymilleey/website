@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.letter {
+  width: 100%;
+  height: 60%;
+}
+
+.resume {
+  width: 50%;
+  height: 50%;
+}
+
+.coverletter {
+  width: 50%;
+  height: 50%;
+}
