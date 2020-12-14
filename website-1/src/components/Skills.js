@@ -4,8 +4,6 @@ import './Skills.css';
 
 
 
-
-
 function Skills() {
   return (
     <div className='hero-container'>
@@ -15,10 +13,18 @@ function Skills() {
 
 
 
-      </div>
+        </div>
+
+
+
 
 
   );
-}
+};
+
+
+
+
+
 
 export default Skills;

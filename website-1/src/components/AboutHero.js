@@ -11,8 +11,9 @@ function AboutHero() {
     <h1 className="welcome"> My Story</h1>
 
         <table className="table">
+          <tbody>
             <tr>
-              <th>
+              <th className="header">
                  My name is Caitlyn Miley and I am a Full Stack Developer!
               </th>
             </tr>
@@ -25,6 +26,8 @@ function AboutHero() {
 
              </td>
            </tr>
+
+           </tbody>
         </table>
 
 

@@ -30,6 +30,7 @@ video {
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  padding-top: 10%;
 }
 
 .hero-btns {
@@ -69,4 +70,10 @@ video {
   .btn {
     width: 100%;
   }
+
+.welcome > h1 {
+  padding-top: 100% !important;
+
+}
+
 }

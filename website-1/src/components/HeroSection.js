@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import AboutHero from './AboutHero';
 
 
 function HeroSection() {
@@ -20,6 +21,10 @@ function HeroSection() {
         </Button>
 
       </div>
+      <div>
+    </div>
+
+  
     </div>
   );
 }
