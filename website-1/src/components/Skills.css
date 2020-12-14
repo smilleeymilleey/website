@@ -7,3 +7,8 @@
 .welcome {
   padding-right: 50% !important;
 }
+
+canvas.chartjs-render-monitor {
+  height: 500px !important;
+  width: 900px !important;
+}
