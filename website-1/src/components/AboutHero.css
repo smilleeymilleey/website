@@ -1,11 +1,11 @@
-.aboutMePic {
-  width: 200px;
-  height: 200px;
-  text-align: right;
-  display:block;
-  padding-bottom: 60%;
-  padding-top: -20%;
-  padding-left: 70%;
+.meinside {
+position: absolute;
+padding-right:5px;
+padding-left: 10%;
+width: 400px;
+height: 500px;
+padding-top: 0;
+padding-bottom: -50%;
 
 }
 
@@ -16,6 +16,7 @@
 
 .welcome {
 padding-right: 50%;
+padding-top: 10%;
 }
 
 
@@ -23,15 +24,18 @@ padding-right: 50%;
 
 h2.intro {
   padding-top: -200%;
-  padding-right: 40%;
+  padding-right: 50%;
   font-size: 25px;
 
 }
 
-header {
-float: left;
+.header {
+padding-right: 40%;
 }
 
+.paragraph {
+  padding-right: 50%;
+}
 
 .table {
   text-align: left;
