@@ -8,7 +8,7 @@ import AboutHero from './AboutHero';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/PexelsVideos1192113.mp4' autoPlay loop muted />
+      <video src='/video.mp4' autoPlay loop muted />
       <h1>Hi, I'm Caitlyn Miley! </h1>
       <p>I'm a Full Stack Web Developer</p>
       <div className='hero-btns'>
@@ -24,7 +24,7 @@ function HeroSection() {
       <div>
     </div>
 
-  
+
     </div>
   );
 }
