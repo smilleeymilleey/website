@@ -32,7 +32,7 @@ export default class App extends React.Component {
             title:{
               display:true,
               text:'Programming Languages',
-              fontSize:20
+              fontSize:50
             },
             legend:{
               display:true,

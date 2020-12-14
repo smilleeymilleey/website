@@ -61,18 +61,33 @@
 .letter {
   width: 400px;
   height: 400px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 10%;
 }
+
 
 .resume {
   width: 400px;
   height: 400px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 10%;
 }
 
 .coverletter {
   width: 400px;
   height: 400px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 10%;
 }
 
 .welcomeQualify{
   padding-right: 40%;
+  padding-left: 10%;
+  padding-top: 20%;
 }

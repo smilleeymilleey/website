@@ -1,10 +1,10 @@
 .meinside {
 position: absolute;
-padding-right:5px;
+padding-right: 5%;
 padding-left: 10%;
 width: 600px;
 height: 600px;
-padding-top: 0;
+padding-top: 5%;
 padding-bottom: -50%;
 
 }
@@ -17,6 +17,7 @@ padding-bottom: -50%;
 .welcome {
 padding-right: 50%;
 padding-top: 10%;
+padding-left: 10%;
 }
 
 
@@ -30,9 +31,12 @@ h2.intro {
 }
 
 .header {
-padding-right: 40%;
+padding-right: 50%;
+padding-left: 10%;
 }
 
 .paragraph {
   padding-right: 50%;
+  font-size: 20px;
+  padding-left: 10%;
 }
