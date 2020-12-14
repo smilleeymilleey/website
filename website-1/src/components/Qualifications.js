@@ -11,7 +11,7 @@ function Qualifications () {
           <div class="column">
               <img className="letter" src="letterofrec.png" alt="letter"></img>
               <div className="overlay">
-                <div className="text">Hello World</div>
+                <div className="text">Letter Of Recomendation</div>
                 </div>
           </div>
 
@@ -19,14 +19,14 @@ function Qualifications () {
             <div className="column">
               <img className="resume" src="resume1.png" alt="resume"></img>
               <div className="overlay">
-                <div className="text">Hello World</div>
+                <div className="text">Resume</div>
                 </div>
 
             </div>
                 <div className="column">
                   <img className="coverletter" src="coverletter1.png" alt="coverletter"></img>
                   <div className="overlay">
-                    <div className="text">Hello World</div>
+                    <div className="text">Cover Letter</div>
                     </div>
                 </div>
 
