@@ -4,7 +4,7 @@ import './Qualifications.css';
 
 function Qualifications () {
   return (
-    <div className="Qualifications">
+    <div className="hero-container">
       <h2>Professional Documents</h2>
 
           <div class="row">

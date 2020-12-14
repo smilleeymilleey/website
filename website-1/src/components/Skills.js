@@ -1,30 +1,44 @@
 import React from 'react';
 import '../App.css';
 import './Skills.css';
+import {Bar} from 'react-chartjs-2';
 
 
 
-function Skills() {
-  return (
-    <div className='hero-container'>
-      <video src='/PexelsVideos1192113.mp4' autoPlay loop muted />
-      <h1 className="skillsHeader">These Are My Skills </h1>
-      <p>I'm a Full Stack Web Developer</p>
+const state = {
+  labels: ['HTML', 'CSS', 'Javascript', 'React', "Firebase", "Github", "JQuerry"],
+  datasets: [
+    {
+      label: 'Profeciency Level',
+      backgroundColor: 'rgba(75,192,192,1)',
+      borderColor: 'rgba(0,0,0,1)',
+      borderWidth: 2,
+      data: [100, 97, 99, 98, 97, 98, 90]
+    }
+  ]
+}
 
+export default class App extends React.Component {
+  render() {
+    return (
+      <div className="graph">
+        <Bar 
+          data={state}
+          options={{
+            title:{
+              display:true,
+              text:'Programming Languages',
+              fontSize:20
+            },
+            legend:{
+              display:true,
+              position:'right'
+            }
+          }}
+        />
+      </div>
 
+    );
 
-        </div>
-
-
-
-
-
-  );
-};
-
-
-
-
-
-
-export default Skills;
+}
+}
