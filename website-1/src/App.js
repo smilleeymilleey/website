@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 
-import Blog from './components/pages/Blog';
+import Blog from './components/pages/Post';
 
 
 
@@ -20,7 +20,8 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
-          <Route path='/Blog' component={Blog} />
+          <Route path='/:post_id' component={Post} />
+
         </Switch>
       </Router>
 

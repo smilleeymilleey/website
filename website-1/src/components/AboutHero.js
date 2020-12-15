@@ -14,7 +14,7 @@ function AboutHero() {
 
         <h1 className="welcome"> About Me</h1>
             <h2 className="header">
-              Welcome! Read about My Story here.
+              Welcome! My name is Caitlyn. This is my story.
             </h2>
 
         <section className="paragraph">
