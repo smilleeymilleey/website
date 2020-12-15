@@ -9,9 +9,8 @@ import Products from './components/pages/Products';
 import Blog from './components/pages/Blog';
 
 
-
-
 function App() {
+
   return (
     <>
       <Router>

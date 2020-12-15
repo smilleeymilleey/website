@@ -1,12 +1,25 @@
+
 import React from 'react';
 import '../../App.css';
 
-function Blog () {
-  return (
-    <div>
-      <h1> Hey Blog </h1>
-    </div>
-  )
+import BlogPage from '../BlogPage';
+
+    function Services() {
+      return (
+        <>
+
+        <BlogPage />
+
+        </>
+      );
+
+
+
+
+
+
+
+
 }
 
-export default Blog;
+export default Services;
