@@ -8,7 +8,7 @@ export default function Contact() {
   <div className="hero-container">
 <div class="wrapper">
   <div class="title">
-    <h1>contact us form</h1>
+    <h1>Contact Me</h1>
   </div>
   <div class="contact-form">
     <div class="input-fields">

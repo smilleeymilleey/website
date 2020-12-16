@@ -4,7 +4,7 @@ import './Qualifications.css';
 
 function Qualifications () {
   return (
-    <div className="hero-container">
+    <div className="newContainer">
       <h1 className='welcomeQualify'>Qualifications</h1>
 
         <div class="row">

@@ -8,16 +8,16 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='' autoPlay loop muted />
-      <h1>Hi, I'm Caitlyn Miley! </h1>
-      <p>I'm a Full Stack Web Developer</p>
+      <video src='record.mp4' autoPlay loop muted />
+      <h1 className="Title">Hi, I'm Caitlyn Miley! </h1>
+      <p className="Sub">Let's set the record straight.</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Check Out My Work!
+          view My Portfolio
         </Button>
 
       </div>

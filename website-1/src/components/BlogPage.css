@@ -59,6 +59,7 @@ text-align: left;
   transition: all 500ms;
   color: black;
   border: black solid;
+  border-top: black solid 7px;
 }
 
 .Quincy:hover {
@@ -99,6 +100,9 @@ text-align: left;
   padding-top: 2%;
 }
 
+.Blog-Container {
+  background-color: #dfb600;
+}
 .pub {
   padding-left: 5%;
   padding-right: 20%;
