@@ -28,8 +28,11 @@
 }
 
 
-.quincy {
-object-fit: cover;
-width: 50%;
-height: 100%;
+.Quincy {
+background-color: white;
+}
+
+.Productivity {
+  background-color: white;
+  object-fit: cover;
 }
