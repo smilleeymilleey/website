@@ -21,7 +21,7 @@ export default function Blog() {
   return (
     <div className='Blog-Container'>
       <div className="Header">
-        <h1 className="blog"> Welcome to my Blog!</h1>
+        <h1 className="blog"> Welcome To My Blog!</h1>
 
       </div>
 

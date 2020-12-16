@@ -6,14 +6,15 @@ import {Bar} from 'react-chartjs-2';
 
 
 const state = {
-  labels: ['HTML', 'CSS', 'Javascript', 'React', "Firebase", "Github", "JQuerry"],
+  labels: ['HTML', 'CSS', 'Javascript', 'React', "Firebase", "Github", "X"],
   datasets: [
     {
       label: 'Profeciency Level',
       backgroundColor: 'grey',
-      borderColor: 'rgba(0,0,0,1)',
-      borderWidth: 2,
-      data: [100, 97, 99, 98, 97, 98, 90]
+      borderColor: 'black',
+      borderWidth: 5,
+      data: [85, 90, 85, 90, 80, 98, 70]
+
     }
   ]
 }
@@ -36,7 +37,8 @@ export default class App extends React.Component {
             },
             legend:{
               display:true,
-              position:'right'
+              position:'right',
+
             }
           }}
         />
