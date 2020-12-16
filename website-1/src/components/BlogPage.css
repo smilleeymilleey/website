@@ -1,0 +1,35 @@
+.Blog-Container {
+  background-color: gray;
+
+}
+
+
+.welcome {
+  color: White;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.header {
+
+  color: white;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+
+
+}
+
+.Blog1 {
+  padding-top: 0;
+}
+
+
+.quincy {
+object-fit: cover;
+width: 50%;
+height: 100%;
+}

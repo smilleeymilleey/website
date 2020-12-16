@@ -19,9 +19,9 @@ function AboutHero() {
 
         <section className="paragraph">
            I have been programming since 2019 and have worked on <br />
-              social media clones, e-commerce projects, and developing with API's.
-                 I have a Full Stack Website Development Certificate from Southern Methodist University
-                  and a Bachelors of Science and Engineering from Texas A&M-Commerce. My passion for programming began when
+              social media clones, e-commerce projects, and developing with API's.<br />
+                 I have a Full Stack Website Development Certificate from Southern Methodist University<br />
+                  and a Bachelors of Science and Engineering from Texas A&M-Commerce. My passion for programming <br /> began when
                   I first learned that I could create something out of nothing.
 
         </section>
