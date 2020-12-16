@@ -1,44 +1,34 @@
 
 
-.meinside {
-
-
-padding-left: 70%;
-
-}
-
-
-
-
-.AboutMe {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 10%;
-  padding-right: 40%;
-  padding-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
-
+.hero-container {
 
 
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.Pargraph {
+  grid-column: 2;
+  grid-row: 1;
+  color: white;
+  font-size: 60px;
+  padding-left: 80%;
 
 
 
-.Welcome {
-  display: flex;
-  flex-wrap: wrap;
+
+}
+
+.title {
+  padding-right: 40% !important;
+}
 
 
-
-  }
-
-
-
-
-
-.paragraph {
-  display: flex;
-  flex-wrap: wrap;
+.Picture {
+  grid-column: 2;
+  grid-row: 1;
 
 }
