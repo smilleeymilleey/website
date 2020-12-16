@@ -57,11 +57,15 @@ text-align: left;
 .Quincy{
   font-weight: bold;
    transition: all 500ms;
+  color: black;
 }
 
 .Quincy:hover {
   font-size: 20px;
   font-size-adjust: 30px;
+  background-color: #39b7dd;
+  color: white;
+
 }
 
 
@@ -69,6 +73,7 @@ text-align: left;
   background-color: white;
   object-fit: cover;
   text-align: left;
+  color: black;
 }
 
 .Productivity {
@@ -81,6 +86,8 @@ text-align: left;
   font-size: 20px;
   font-size-adjust: 30px;
   cursor: pointer;
+  background-color: #39b7dd;
+  color: white;
 }
 
 .para {

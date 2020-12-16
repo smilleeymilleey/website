@@ -8,7 +8,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/firevideo.mp4' autoPlay loop muted />
+      <video src='' autoPlay loop muted />
       <h1>Hi, I'm Caitlyn Miley! </h1>
       <p>I'm a Full Stack Web Developer</p>
       <div className='hero-btns'>
