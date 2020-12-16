@@ -6,24 +6,15 @@ import './AboutHero.css';
 
 export default function Blog() {
   return (
-<div className="container">
-  <div className="header">
-    <h1>Chania</h1>
+<div class="hero-container">
+  <h1>About Me</h1>
+<div class="container">
+  <img class="container__image" alt= "me" src='meinside1.jpg'></img>
+  <div class="container__text">
+    <h2>Why Do Cats Like Boxes?</h2>
+    <p>"Cats like boxes because they are cryptic animals; they like to hide," Stephen Zawistowski, science adviser for the American Society for the Prevention of Cruelty to Animals, told Business Insider. "And a box gives them a place of safety and security."</p>
+    <p>While inside a box, cats feel that they cannot be snuck up on from behind or the side — anything that wants to approach them must come directly into their field of vision. In effect, such hiding spaces allow them to watch the world around them without being seen.</p>
   </div>
-
-    <div className="menu">
-      <ul>
-        <li>The Flight</li>
-        <li>The City</li>
-        <li>The Island</li>
-        <li>The Food</li>
-      </ul>
-    </div>
-
-<div className="main">
-  <h1>The City</h1>
-  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
 </div>
 </div>
 

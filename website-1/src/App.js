@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
-
+import ContactPage from './components/pages/ContactPage.js';
 import Blog from './components/pages/Blog';
 
 
@@ -20,6 +20,7 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/blog' component={Blog} />
+          <Route path='/contactpage' component={ContactPage} />
 
         </Switch>
       </Router>
