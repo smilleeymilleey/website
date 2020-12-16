@@ -29,6 +29,8 @@
   padding-right: 10%;
 }
 
+
+
 .footer {
   margin-left: 0%;
   margin-right: 0%;
@@ -50,8 +52,31 @@ background-color: white;
 text-align: left;
 }
 
+.Quincy{
+  font-weight: bold;
+
+   transition: all 500ms;
+}
+
+.Quincy:hover {
+  font-size: 20px;
+  font-size-adjust: 30px;
+}
+
+
 .Productivity {
   background-color: white;
   object-fit: cover;
   text-align: left;
+}
+
+.Productivity {
+  font-weight: bold;
+
+   transition: all 500ms;
+}
+
+.Productivity:hover {
+  font-size: 20px;
+  font-size-adjust: 30px;
 }
