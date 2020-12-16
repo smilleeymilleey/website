@@ -56,8 +56,9 @@ text-align: left;
 
 .Quincy{
   font-weight: bold;
-   transition: all 500ms;
+  transition: all 500ms;
   color: black;
+  border: black solid;
 }
 
 .Quincy:hover {
@@ -78,8 +79,8 @@ text-align: left;
 
 .Productivity {
   font-weight: bold;
-
-   transition: all 500ms;
+  border: black solid;
+  transition: all 500ms;
 }
 
 .Productivity:hover {
@@ -95,6 +96,7 @@ text-align: left;
   padding-left: 5%;
   padding-right: 20%;
   cursor: pointer;
+  padding-top: 2%;
 }
 
 .pub {
@@ -113,7 +115,7 @@ text-align: left;
 .title {
   padding-left: 5%;
   padding-right: 20%;
-  padding-top: 2%;
+  padding-top: 5%;
   cursor: pointer;
 }
 

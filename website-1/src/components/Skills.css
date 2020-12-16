@@ -12,3 +12,7 @@ canvas.chartjs-render-monitor {
   width: 1200px !important;
 
 }
+.graphWrapper {
+  padding-left: 10%;
+  padding-right: 10%;
+}
