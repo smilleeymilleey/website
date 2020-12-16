@@ -6,29 +6,27 @@ import './AboutHero.css';
 
 export default function Blog() {
   return (
+<div className="container">
+  <div className="header">
+    <h1>Chania</h1>
+  </div>
 
-    <div className='hero-container'>
-        <h1 className="title">About Me</h1>
+    <div className="menu">
+      <ul>
+        <li>The Flight</li>
+        <li>The City</li>
+        <li>The Island</li>
+        <li>The Food</li>
+      </ul>
+    </div>
 
-      <div class="wrapper">
+<div className="main">
+  <h1>The City</h1>
+  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+</div>
 
 
-
-        <div class="Picture">
-        <img alt="me" className="meinside" src="meinside1.jpg"></img>
-        </div>
-
-        <div class="Paragraph">
-        <h2> This is my story </h2>
-        <p className="Paragraph">I have been programming since 2019 and have worked on 
-            social media clones, e-commerce projects, and developing with API's.
-               I have a Full Stack Website Development Certificate from Southern Methodist University
-                and a Bachelors of Science and Engineering from Texas A&M-Commerce. My passion for programming began when
-                I first learned that I could create something out of nothing.
-                </p>
-        </div>
-
-      </div>
-      </div>
-)
-}
+  );
+};
