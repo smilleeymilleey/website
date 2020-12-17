@@ -8,8 +8,13 @@ function AboutHero() {
   return (
     <div className='new-Container'>
       <img src='aboutmeheader.png'></img>
-      <div className="Title">Hi, I'm Caitlyn Miley! </div>
-      <div className="Sub">Let's set the record straight.</div>
+      <h1 className="Title">About Me </h1>
+      
+      <p className="Sub">Hey there! Thanks for cheecking out my portfolio.
+      I've been programming since 2019. I started with frontend languages like Javascript, HTML, and CSS. I eventually learned backend capabilities like 
+      React and Firebase, to my toolkit. I love programming because creating 
+      beautiful and functional programs from scratch feels like magic. 
+       </p>
       
         
 

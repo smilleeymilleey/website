@@ -3,22 +3,6 @@
   background-color: #dfb600;
 }
 
-//qualifications// 
-
-
-.newContainer > h1 {
-  font-size: 70px;
-  background-color: #dfb600;
-  color: white;
-  position: relative;
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  
-  
-}
 
 .me {
   height: 100%;
@@ -26,9 +10,39 @@
   
 }
 
+.Title {
+  padding-left: 50%;
+  position: absolute;
+  top: 200px;
+  right: 16px;
+  padding-right: 25%;
+  padding-bottom: 60%;
+  color: white;
+  font-size: 75px;
+}
+
+
+.Sub1 {
+  padding-left: 50%;
+  position: absolute;
+  top: 250px;
+  right: 16px;
+  padding-right: 34%;
+  padding-top: 4%;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
 
 .Sub {
+  padding-left: 52%;
   position: absolute;
-  bottom: 8px;
+  top: 250px;
   right: 16px;
+  padding-right: 20%;
+  padding-top: 4%;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
 }
