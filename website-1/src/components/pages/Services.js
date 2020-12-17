@@ -2,8 +2,6 @@
 import React from 'react';
 import '../../App.css';
 import AboutHero from '../AboutHero';
-
-import Qualifications from '../Qualifications';
 import Footer from '../Footer';
 
     function Services() {
@@ -12,7 +10,7 @@ import Footer from '../Footer';
 
           <AboutHero />
           
-          <Qualifications />
+          
           <Footer />
         </>
       );

@@ -4,9 +4,11 @@
     box-sizing: border-box;
     outline: none;
     font-family: 'Roboto', sans-serif;
-  }
+}
   
- 
+ .newContainer {
+  background-image: linear-gradient(to right,  rgb(173, 149, 12), hsl(56, 95%, 50%),  rgb(173, 149, 12));
+ }
   
   .wrapper{
     position: absolute;
