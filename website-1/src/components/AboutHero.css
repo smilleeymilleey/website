@@ -12,7 +12,10 @@
   color: white;
   position: relative;
   text-align: center;
- 
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 16px;
   
   
 }
@@ -23,14 +26,6 @@
   
 }
 
-.Title {
-  color: white;
-  position: absolute;
-  top: 8px;
-  right: 16px;
-
-
-}
 
 .Sub {
   position: absolute;
