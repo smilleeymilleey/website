@@ -4,14 +4,20 @@ import './AboutHero.css';
 
 
 
-export default function Blog() {
+function AboutHero() {
   return (
-<div class="newContainer">
-  <h1>About Me</h1>
+    <div className='new-Container'>
+      <img src='aboutmeheader.png'></img>
+      <div className="Title">Hi, I'm Caitlyn Miley! </div>
+      <div className="Sub">Let's set the record straight.</div>
+      
+        
 
-  
-</div>
+      
 
 
+    </div>
   );
-};
+}
+
+export default AboutHero;

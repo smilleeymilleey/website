@@ -32,7 +32,7 @@ export default function Blog() {
 
               <p className="para" onClick={quincyClick}>
                 My research phase included attending as many events as humanly possible, talking to established individuals in the fields of tech and psychology, and reading as many articles on the subject that I could. I have cultivated conversations with the community and was delighted when FreeCodeCamps Quincy Larson agreed to have a meeting with me. At first, I figured this would be a run of the mill "tips for new developers and mistakes they should avoid" kind of discussion, but I was far more pleased with the topics we were able to get in to.</p>
-              <p className="pub">Published on Medium.com<br /> 3 minute read</p>
+              <p className="pub">3 minute read <br /> Published on Medium.com</p>
 
 
 
@@ -49,7 +49,7 @@ export default function Blog() {
                 Remember the last time you felt un-stoppable? You were energetic, focused, and crossed off everything on your to-do list (maybe even more). Wouldn’t it be great if every day, we could be this productive? If, even on our “slow days” we found a way to knock through all of our tasks, and went to bed at night feeling accomplished and fulfilled? Does it sound too good to be true?
                 Well, it doesn't have to be! You see, even though each day comes with its own unique problems, there are usually more ways we can set ourselves up for success than there are problems holding us back. As long as you design your life to your goals, acknowledge what is holding you back, and define your motivations, you can stay unstoppable. Lets dive in!
               </p>
-              <p className="pub"> Published on Medium.com<br /> 4 minute read</p>
+              <p className="pub"> 4 minute read<br /> Published on Medium.com</p>
 
             </div>
             <div className="Footer">

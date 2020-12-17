@@ -5,7 +5,7 @@ import "./Contact.css";
 
 export default function Contact() {
     return (
-  <div className="hero-container">
+  <div className="newContainer">
 <div class="wrapper">
   <div class="title">
     <h1>Contact Me</h1>

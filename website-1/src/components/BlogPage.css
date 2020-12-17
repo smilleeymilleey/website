@@ -50,14 +50,14 @@
   font-size: 70px;
 }
 .Quincy {
-background-color: white;
+background-color: grey;
 text-align: left;
 }
 
 .Quincy{
   font-weight: bold;
   transition: all 500ms;
-  color: black;
+  color: white;
   border: black solid;
   border-top: black solid 7px;
 }
@@ -72,10 +72,10 @@ text-align: left;
 
 
 .Productivity {
-  background-color: white;
+  background-color: grey;
   object-fit: cover;
   text-align: left;
-  color: black;
+  color: white;
 }
 
 .Productivity {
@@ -107,6 +107,7 @@ text-align: left;
   padding-left: 5%;
   padding-right: 20%;
   cursor: pointer;
+  padding-top: 2%;
 }
 
 .time {

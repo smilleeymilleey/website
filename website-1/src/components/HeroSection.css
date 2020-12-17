@@ -7,9 +7,18 @@ video {
 }
 
 
-
+.SubT {
+  color: blue;
+}
 .newContainer {
  background-color: #dfb600;
+ height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 .hero-container {
 
@@ -25,22 +34,25 @@ video {
 .hero-container > h1 {
   color: #fff;
   font-size: 100px;
-  margin-top: -100px;
+  margin-top: 10%;
   align-items: left;
-  padding-left: 5%;
+  padding-right: 40%;
+ 
+  color: 
  
 }
 
 
 .hero-container > p {
   margin-top: 8px;
-  color: #fff;
+  color: white;
   font-size: 32px;
+  padding-right: 73%;
+  padding-bottom: 25%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  padding-top: 0%;
-  align-items: left;
-  padding-left: 5%;
+  
+
 }
 
 .hero-btns {

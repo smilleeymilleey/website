@@ -1,25 +1,39 @@
 
-
-.container {
+.newContainer {
   background-color: #dfb600;
-  object-fit: cover;
+}
+
+//qualifications// 
+
+
+.newContainer > h1 {
+  font-size: 70px;
+  background-color: #dfb600;
+  color: white;
+  position: relative;
+  text-align: center;
+ 
   
-  padding: 20px 40px 40px;
-  max-width: 640px;
-  &__image {
-    display: inline-block;
-    vertical-align: top;
-    width: 46%;
-    margin: 10px 20px 0 0;
-    @media (max-width: 620px) {
-      width: 100%;
-    }
-  }
-  &__text {
-    display: inline-block;
-    width: 46%;
-    @media (max-width: 620px) {
-      width: 100%;
-    }
-  }
+  
+}
+
+.me {
+  height: 100%;
+  max-width: 600px;
+  
+}
+
+.Title {
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+
+
+}
+
+.Sub {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
