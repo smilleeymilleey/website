@@ -102,5 +102,8 @@
 .welcomeQualify{
   padding-right: 40%;
   padding-left: 10%;
-  padding-top: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+  font-size: 70px;;
 }
