@@ -43,7 +43,7 @@ export default function Blog() {
 
         <div className='Blog2' >
             <div className="Productivity">
-              <h2 className="title">Positive Productivity On A "Slow Day</h2>
+              <h2 className="title">Positive Productivity On A "Slow Day"</h2>
 
               <p className="para" onClick={productivityClick}>
                 Remember the last time you felt un-stoppable? You were energetic, focused, and crossed off everything on your to-do list (maybe even more). Wouldn’t it be great if every day, we could be this productive? If, even on our “slow days” we found a way to knock through all of our tasks, and went to bed at night feeling accomplished and fulfilled? Does it sound too good to be true?
