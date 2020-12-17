@@ -48,6 +48,7 @@
   text-align: center;
   color: white;
   font-size: 70px;
+  background-image: linear-gradient(to right,  rgb(173, 149, 12), hsl(56, 95%, 50%),  rgb(173, 149, 12));
 }
 .Quincy {
 background-color: grey;
