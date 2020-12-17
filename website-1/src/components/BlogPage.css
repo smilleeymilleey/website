@@ -51,16 +51,16 @@
   background-image: linear-gradient(to right,  rgb(173, 149, 12), hsl(56, 95%, 50%),  rgb(173, 149, 12));
 }
 .Quincy {
-background-color: grey;
+background-color: black;
 text-align: left;
 }
 
 .Quincy{
   font-weight: bold;
   transition: all 500ms;
-  color: white;
-  border: black solid;
-  border-top: black solid 7px;
+  color: #39b7dd;
+  border: #39b7dd solid;
+  border-top: #39b7dd solid 7px;
 }
 
 .Quincy:hover {
@@ -73,15 +73,15 @@ text-align: left;
 
 
 .Productivity {
-  background-color: grey;
+  background-color: black;
   object-fit: cover;
   text-align: left;
-  color: white;
+  color: #39b7dd;
 }
 
 .Productivity {
   font-weight: bold;
-  border: black solid;
+  border: #39b7dd solid;
   transition: all 500ms;
 }
 
