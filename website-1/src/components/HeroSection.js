@@ -9,7 +9,7 @@ function HeroSection() {
   return (
     <Flex
     container
-    justifyContent="Space-between"
+    justifyContent="flex-start"
     width="300px"
     >
     <div className='hero-container'>
