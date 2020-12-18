@@ -18,7 +18,7 @@ export default function Blog() {
   return (
     <Flex
     container
-    justifyContent="flex-start"
+    justifyContent="center"
     width="300px"
     >
     <div className='Blog-Container'>
