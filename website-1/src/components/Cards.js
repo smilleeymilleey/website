@@ -1,23 +1,23 @@
-import React from 'react'; 
-
-
+import React from 'react';
+import './BlogPage.css';
 
 function Cards() {
     return (
-      <div className='hero-container'>
-        <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."></img>
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        </div>
+<div class="row">
+  <div class="column">
+    <div class="card">Blog Post #1</div>
+  </div>
+  <div class="column">
+    <div class="card">Blog Post #2</div>
+  </div>
+  <div class="column">
+    <div class="card">Blog Post #3</div>
+  </div>
+  <div class="column">
+    <div class="card">Blog Post #4</div>
+  </div>
+</div>
+    )
+};
 
-    </div>
-    
-    );
-  }
-  
-  export default Cards;
-
+export default Cards;
