@@ -21,9 +21,11 @@ function AboutHero() {
              React, Firebase, Node, HTML, and CSS.
           
           </p>
-      
+              <div className='aboutButtons'>
              <button className= "resume">Resume</button>
-     
+             <button className="portfolio">Portfolio</button>
+             <button className="letter">Letter</button>
+              </div> 
         
 
       
