@@ -1,37 +1,146 @@
 import React from 'react';
 import './BlogPage.css';
-import $ from 'jquery';
 
-$('#circleDrop').click(function(){
-	$('.card-middle').slideToggle();
-	$('.close').toggleClass('closeRotate');
-  });
+
 
 
 
 
 function Cards() {
-    return (
-<div class="row">
-  <div class="small-7 medium-5 large-4 column end small-centered card">
-    <div class="card-top"><a href="#0">
-        <div class="overlay">
-          <h1>READ</h1>
-        </div></a><img class="card-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/324479/yeti.png"/></div>
-    <div class="triangle">
-      <div class="circle-button" id="circleDrop"><img class="close" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/324479/close.svg"/></div>
-    </div>
-    <div class="card-middle">
-      <h5 class="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cumque natus delectus praesentium laudantium molestias.</h5>
-    </div>
-    <div class="card-bottom text-center">
-      <h2 class="card-title">Foundation</h2>
-    </div>
-  </div>
+ return (
+
+<div classNameName="site__wrapper">
+      <div className="grid">
+          <div className="card">
+            <div className="card__image">
+              <img src="https://unsplash.it/400/608?image=123" alt=""></img>
+
+              <div className="card__overlay card__overlay--indigo">
+                <div className="card__overlay-content">
+                  <ul className="card__meta">
+                    <li><a href="#0"><i className="fa fa-tag"></i> Html5/Css3</a></li>
+                    <li><a href="#0"><i className="fa fa-clock-o"></i> 2 min ago</a></li>
+                  </ul>
+
+                  <a href="#0" className="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul className="card__meta card__meta--last">
+                    <li><a href="#0"><i className="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i className="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div className="grid">
+          <div className="card">
+            <div className="card__image">
+              <img src="https://unsplash.it/400/300?image=100" alt=""></img>
+
+              <div className="card__overlay card__overlay--blue">
+                <div className="card__overlay-content">
+                  <ul className="card__meta">
+                    <li><a href="#0"><i className="fa fa-tag"></i> UI/UX</a></li>
+                    <li><a href="#0"><i className="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" className="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul className="card__meta card__meta--last">
+                    <li><a href="#0"><i className="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i className="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div className="grid">
+          <div className="card">
+            <div className="card__image">
+              <img src="https://unsplash.it/400/300?image=200" alt=""></img>
+
+              <div className="card__overlay card__overlay--indigo">
+                <div className="card__overlay-content">
+                <ul className="card__meta">
+                    <li><a href="#0"><i className="fa fa-tag"></i> UI/UX</a></li>
+                    <li><a href="#0"><i className="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" className="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul className="card__meta card__meta--last">
+                    <li><a href="#0"><i className="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i className="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>    
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div className="grid">
+          <div className="card">
+            <div className="card__image">
+              <img src="https://unsplash.it/400/300?image=300" alt=""></img>
+
+              <div className="card__overlay card__overlay--indigo">
+                <div className="card__overlay-content">
+                  <ul className="card__meta">
+                    <li><a href="#0"><i className="fa fa-tag"></i> Tutorials</a></li>
+                    <li><a href="#0"><i className="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" className="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul className="card__meta card__meta--last">
+                    <li><a href="#0"><i className="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i className="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>   
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div className="grid">
+          <div className="card">
+            <div className="card__image">
+              <img src="https://unsplash.it/400/300?image=400" alt=""></img>
+
+              <div className="card__overlay card__overlay--blue">
+                <div className="card__overlay-content">
+                  <ul className="card__meta">
+                    <li><a href="#0"><i className="fa fa-tag"></i> Tutorials</a></li>
+                    <li><a href="#0"><i className="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" className="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul className="card__meta card__meta--last">
+                    <li><a href="#0"><i className="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i className="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>   
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>		
+
+      <div className="site__info">
+        <p>Placeholder images are served from <a target="_blank" href="https://unsplash.it">www.unsplash.it</a></p>
+        <p>Handcrafted by <a target="_blank" href="https://mithicher.github.io">Mithicher</a>. Tweet me on <a target="_blank" href="https://twitter.com/mithicher">Twitter</a></p>
+      </div>
 </div>
 
 
 
-    )
-    };
+
+
+
+ )
+ }
 export default Cards;
