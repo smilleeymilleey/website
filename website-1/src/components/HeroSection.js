@@ -13,7 +13,7 @@ function HeroSection() {
     width="300px"
     >
     <div className='hero-container'>
-      <video src='record.mp4' autoPlay loop muted />
+      <video className="homeVideo" src='record.mp4' autoPlay loop muted />
       <h1 className="TitleT">Hi, I'm Caitlyn Miley! </h1>
       <p className="SubT">Let's set the record straight.</p>
       <div className='hero-btns'>

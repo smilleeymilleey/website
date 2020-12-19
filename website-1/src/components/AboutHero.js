@@ -1,16 +1,34 @@
 import React from 'react';
+import '../App.css';
+import { Button } from './Button';
+import './AboutHero.css';
 import { Flex } from './Flex';
 
 
-const AboutHero = () => (
-  <Flex
-  container
-  justifyContent="Space-between"
-  width="300px"
-  >
+function AboutHero() {
+  return (
+    <Flex
+    container
+    justifyContent="center"
+    
+    >
+      <div className='abouthero-container'>
+    
+      <img className="aboutVideo" src='aboutmeheader.png'></img>
+      
+      
+        
+     
+        
 
-    <h4>Caitlyn Miley </h4>
-  </Flex>
-)
+      
+      <div>
+   
+</div>
+
+    </div>
+    </Flex>
+  );
+}
 
 export default AboutHero;

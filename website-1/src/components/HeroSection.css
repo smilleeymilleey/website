@@ -15,10 +15,12 @@ video {
   z-index: -1;
 }
 
-
-.SubT {
-  color: blue;
+.homeVideo {
+  height: auto;
+  width: 100%;
 }
+
+
 .newContainer {
  background-color: #dfb600;
  height: 100vh;
@@ -37,6 +39,7 @@ video {
   margin-top: 10%;
   padding-right: 30%;
   padding-left: 50%;
+  
  
   
  
