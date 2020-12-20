@@ -6,7 +6,7 @@ function PCard() {
 <div className="container">
 <section className="info">
   
-  <h1>Learn HTML &mdash; <a href="https://codetheweb.blog/" target="_blank">Code The Web</a></h1>
+  <h1>Github Profile: <a href="https://github.com/smilleeymilleey" target="_blank">SmilleeyMilleey</a></h1>
 </section>
 <section className="cards-wrapper">
   <div className="card-grid-space">
