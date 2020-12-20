@@ -1,5 +1,6 @@
 import React from 'react';
 import './BlogPage.css';
+import Footer from './Footer';
 
 
 
@@ -130,14 +131,13 @@ function Cards() {
           </div>
       </div>		
 
-      <div className="site__info">
-        <p>Placeholder images are served from <a target="_blank" href="https://unsplash.it">www.unsplash.it</a></p>
-        <p>Handcrafted by <a target="_blank" href="https://mithicher.github.io">Mithicher</a>. Tweet me on <a target="_blank" href="https://twitter.com/mithicher">Twitter</a></p>
-      </div>
+     
+
+<div>
+
+<Footer />
 </div>
-
-
-
+</div>
 
 
 
