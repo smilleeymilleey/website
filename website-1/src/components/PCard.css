@@ -31,7 +31,7 @@ a {
   width: max-content;
 }
 
-.card {
+.pCard {
   font-family: "Heebo";
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(
@@ -58,28 +58,28 @@ a {
   text-decoration: none;
 }
 
-.card:hover {
+.pCard:hover {
   transform: rotate(0);
 }
 
-.card h1 {
+.pCard h1 {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
 }
 
-.card p {
+.pCard p {
   font-size: 0.75em;
   font-family: "Open Sans";
   margin-top: 0.5em;
   line-height: 2em;
 }
 
-.card .tags {
+.pCard .tags {
   display: flex;
 }
 
-.card .tags .tag {
+.pCard .tags .tag {
   font-size: 0.75em;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 0.3rem;
@@ -89,12 +89,12 @@ a {
   transition: all, var(--transition-time);
 }
 
-.card:hover .tags .tag {
+.pCard:hover .tags .tag {
   background: var(--color);
   color: white;
 }
 
-.card .date {
+.pCard .date {
   position: absolute;
   top: 0;
   right: 0;
@@ -104,8 +104,8 @@ a {
   opacity: 0.8;
 }
 
-.card:before,
-.card:after {
+.pCard:before,
+.pCard:after {
   content: "";
   transform: scale(0);
   transform-origin: top left;
@@ -118,28 +118,28 @@ a {
   transition-timing-function: ease-in-out;
 }
 
-.card:before {
+.pCard:before {
   background: #ddd;
   width: 250%;
   height: 250%;
 }
 
-.card:after {
+.pCard:after {
   background: white;
   width: 200%;
   height: 200%;
 }
 
-.card:hover {
+.pCard:hover {
   color: var(--color);
 }
 
-.card:hover:before,
-.card:hover:after {
+.pCard:hover:before,
+.pCard:hover:after {
   transform: scale(1);
 }
 
-.card-grid-space .num {
+.pCard-grid-space .num {
   font-size: 3em;
   margin-bottom: 1.2rem;
   margin-left: 1rem;
