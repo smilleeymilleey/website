@@ -25,5 +25,5 @@ export const Flex = (props) => (
   </div>
 )
 
-
+export default Flex;
 

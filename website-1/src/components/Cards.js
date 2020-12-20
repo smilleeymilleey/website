@@ -1,6 +1,7 @@
 import React from 'react';
 import './BlogPage.css';
 import Footer from './Footer';
+import Flex from './Flex';
 
 
 
@@ -9,7 +10,12 @@ import Footer from './Footer';
 
 function Cards() {
  return (
-
+  <Flex
+  container
+  justifyContent="center"
+  width="100%"
+  
+  >
 <div classNameName="site__wrapper">
       <div className="grid">
           <div className="card">
@@ -138,7 +144,7 @@ function Cards() {
 <Footer />
 </div>
 </div>
-
+</Flex>
 
 
  )

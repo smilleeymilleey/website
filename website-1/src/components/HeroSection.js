@@ -13,15 +13,15 @@ function HeroSection() {
     width="300px"
     >
 
-<aside class="profile-card">
+<aside className="profile-card">
   <header>
     
-    <a target="_blank" href="#">
-      <img src="http://lorempixel.com/150/150/people/" class="hoverZoomLink"></img>
-    </a>
+    
+      <img src="http://lorempixel.com/150/150/people/" className="hoverZoomLink"></img>
+   
 
     <h1>
-      John Doe
+      Caitlyn Miley
     </h1>
 
    
@@ -31,7 +31,7 @@ function HeroSection() {
 
   </header>
 
-  <div class="profile-bio">
+  <div className="profile-bio">
 
     <p>
       It takes monumental improvement for us to change how we live our lives. Design is the way we access that improvement.
@@ -40,26 +40,26 @@ function HeroSection() {
   </div>
 
   
-  <ul class="profile-social-links">
+  <ul className="profile-social-links">
     <li>
       <a target="_blank" href="https://www.facebook.com/creativedonut">
-        <i class="fa fa-facebook"></i>
+        <i className="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a target="_blank" href="https://twitter.com/dropyourbass">
-        <i class="fa fa-twitter"></i>
+        <i className="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a target="_blank" href="https://github.com/vipulsaxena">
-        <i class="fa fa-github"></i>
+        <i className="fa fa-github"></i>
       </a>
     </li>
     <li>
       <a target="_blank" href="https://www.behance.net/vipulsaxena">
 
-        <i class="fa fa-behance"></i>
+        <i className="fa fa-behance"></i>
       </a>
     </li>
   </ul>
@@ -68,8 +68,9 @@ function HeroSection() {
     
 
 
-    
+
     </Flex>
+    
   );
 }
 

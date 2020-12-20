@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Flex from './Flex';
 
 
 function Navbar() {
@@ -26,7 +27,13 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
-    <>
+    
+    <Flex
+  container
+  justifyContent="center"
+  width="100%"
+  
+  >
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -84,10 +91,14 @@ function Navbar() {
                           </Link>
                     </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+        
+        
+        {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+       
         </div>
+        
       </nav>
-    </>
+    </Flex>
   );
 }
 
