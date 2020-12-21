@@ -11,7 +11,7 @@ import Footer from '../Footer';
 
           
           <Contact />
-          <Footer />
+         
           
         </>
       );

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <aside className='footer-container'>
+    <aside className="footer-container">
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the Adventure To Receive Updates On New Blog Posts!
@@ -125,7 +125,8 @@ function Footer() {
           </div>
         </div>
       </section>
-    </aside>
+      </aside>
+  
   );
 }
 

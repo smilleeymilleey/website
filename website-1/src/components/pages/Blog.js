@@ -10,14 +10,13 @@ import Cards from '../Cards';
 
 const Blog = ( ) => {
   return (
-    <div>
+    
     <div>
      <Cards />
-     </div>
-     <div>
-     <Footer />
+     
+     
     </div>
-    </div>
+   
   );
 };
 export default Blog;

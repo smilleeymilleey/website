@@ -10,12 +10,7 @@ import Flex from './Flex';
 
 function Cards() {
  return (
-  <Flex
-  container
-  justifyContent="center"
-  width="100%"
-  
-  >
+ 
 <div classNameName="site__wrapper">
       <div className="grid">
           <div className="card">
@@ -141,10 +136,11 @@ function Cards() {
 
 <div>
 
-<Footer />
+
 </div>
+
 </div>
-</Flex>
+
 
 
  )

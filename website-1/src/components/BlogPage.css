@@ -1,11 +1,4 @@
-*, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
+
   html {
     font-size: 100%;
   }
@@ -26,10 +19,7 @@
     max-width: 100%;
   }
   
-  a {
-    color: #29B6F6;
-    text-decoration: none;
-  }
+
   a:hover {
     text-decoration: underline;
   }
@@ -138,6 +128,7 @@
     position: absolute;
     bottom: 0;
     padding: 1.5em;
+    padding-bottom: 0;
     z-index: 3;
   }
   
@@ -167,5 +158,5 @@
     right: -0.6em;
   }
   .card__meta li > a {
-    color: #f8f8f8;
+    color: white;
   }

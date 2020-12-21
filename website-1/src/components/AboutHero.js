@@ -12,6 +12,7 @@ function AboutHero() {
     justifyContent="center"
     
     >
+      <div>
       <div className='abouthero-container'>
     
       <img className="aboutVideo" src='aboutmeheader.png'></img>
@@ -33,6 +34,7 @@ function AboutHero() {
    
 </div>
 
+    </div>
     </div>
     </Flex>
   );

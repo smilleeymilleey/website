@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Flex from './Flex';
+
 
 
 function Navbar() {
@@ -28,12 +28,7 @@ function Navbar() {
 
   return (
     
-    <Flex
-  container
-  justifyContent="center"
-  width="100%"
-  
-  >
+    <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -46,11 +41,7 @@ function Navbar() {
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-              <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                  Home
-                  </Link>
-              </li>
+              
 
                 <li className='nav-item'>
                   <Link
@@ -98,7 +89,7 @@ function Navbar() {
         </div>
         
       </nav>
-    </Flex>
+    </>
   );
 }
 

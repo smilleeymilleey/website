@@ -7,16 +7,13 @@ import { Flex } from './Flex';
 
 function HeroSection() {
   return (
-    <Flex
-    container
-    justifyContent="center"
-    width="300px"
-    >
+   
 
 <aside className="profile-card">
-  <header>
+  
     
-    
+    <div>
+      <header>
       <img src="http://lorempixel.com/150/150/people/" className="hoverZoomLink"></img>
    
 
@@ -63,13 +60,15 @@ function HeroSection() {
       </a>
     </li>
   </ul>
-</aside>
+
+</div>
 
     
 
 
 
-    </Flex>
+
+ </aside>
     
   );
 }
