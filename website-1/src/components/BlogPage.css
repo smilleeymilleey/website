@@ -12,6 +12,7 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
+    overflow-y: scroll;
   }
   
   img {
@@ -26,11 +27,12 @@
   
   .site__wrapper {
     max-width: 1000px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+   
+  
   }
   
   .site__info {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogPage.css';
 import Footer from './Footer';
-import Flex from './Flex';
+
 
 
 
@@ -138,7 +138,7 @@ function Cards() {
 
 
 </div>
-
+<Footer />
 </div>
 
 

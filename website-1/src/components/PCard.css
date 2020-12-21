@@ -139,6 +139,12 @@ a {
   transform: scale(1);
 }
 
+.pCard {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .pCard-grid-space .num {
   font-size: 3em;
   margin-bottom: 1.2rem;

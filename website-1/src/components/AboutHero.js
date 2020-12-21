@@ -7,36 +7,20 @@ import { Flex } from './Flex';
 
 function AboutHero() {
   return (
-    <Flex
-    container
-    justifyContent="center"
-    
-    >
-      <div>
-      <div className='abouthero-container'>
-    
-      <img className="aboutVideo" src='aboutmeheader.png'></img>
-       
-          <p className='aboutme-paragraph'> About Me. <br></br>
-             I have been programming since 2019. I enjoy using Javascript, 
-             React, Firebase, Node, HTML, and CSS.
-          
-          </p>
-              <div className='aboutButtons'>
-             <button className= "resume">Resume</button>
-             <button className="portfolio">Portfolio</button>
-             <button className="letter">Letter</button>
-              </div> 
-        
 
-      
-      <div>
-   
+  <div class="content">
+  <div class="aboutcard">
+    <div class="firstinfo"><img src="https://randomuser.me/api/portraits/lego/6.jpg"/>
+      <div class="profileinfo">
+        <h1>Caitlyn Miley</h1>
+        <h3>Web Devloper</h3>
+        <p class="bio">I have been programming since 2019. I am proficient in Javascript, React, HTML, CSS</p>
+      </div>
+    </div>
+  </div>
+ 
 </div>
-
-    </div>
-    </div>
-    </Flex>
+   
   );
 }
 
