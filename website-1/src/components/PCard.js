@@ -11,7 +11,7 @@ function PCard() {
 <section className="cards-wrapper">
   <div className="card-grid-space">
    
-    <a className="pCard" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+    <a className="pCard" href="https://twitter-clone-1ef21.web.app/">
       <div>
         <h1>Twitter Clone</h1>
         <p>Tweet, View @smilleeymilleys Tweets in Real Time, and share posts!</p>
