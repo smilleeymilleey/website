@@ -5,18 +5,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 0%;
+  padding-top: 0;
+  
 
   /* Small Devices, Tablets */
   @media only screen and (min-width : 768px) {
     width: 75%;
-    background-color: green;
+    
   }
 
   /* Medium Devices, Desktops */
   @media only screen and (min-width : 992px) {
     width: 50%;
-    background-color: pink;
+    
   }
 
 }

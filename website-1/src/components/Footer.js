@@ -25,16 +25,16 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About</h2>
             <Link to='/sign-up'>My Story</Link>
             <Link to='/'>Letters Of Recomendation</Link>
             <Link to='/'>Resume</Link>
 
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact</h2>
             <Link to='/'>214-868-7223</Link>
             <Link to='/'>Cmiley@protonmail.com</Link>
@@ -43,22 +43,22 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Programming Videos</Link>
 
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link className="Instagram"
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='//instagram.com/smilleeymilley/'
               target='_blank'
               aria-label='Instagram'
             > Instagram
             </Link>
             <Link className="Instagram"
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='//twitter.com/smilleymilleey'
               target='_blank'
               aria-label='Twitter'
@@ -67,7 +67,7 @@ function Footer() {
             </Link>
 
             <Link className="Instagram"
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='//linkedin.com/in/caitlyn-miley1/'
               target='_blank'
               aria-label='LinkedIn'
@@ -78,44 +78,44 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Caitlyn Miley
-              <i class='fas fa-globe-americas' />
+              <i className='fas fa-globe-americas' />
             </Link>
           </div>
-          <small class='website-rights'>Caitlyn Miley © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>Caitlyn Miley © 2020</small>
+          <div className='social-icons'>
 
 
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='//instagram.com/smilleeymilley/'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='//twitter.com/smilleymilleey'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i className='fab fa-twitter' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='//linkedin.com/in/caitlyn-miley1/'
               target='_blank'
               aria-label='LinkedIn'

@@ -20,6 +20,9 @@ a {
   color: inherit;
 }
 
+
+
+
 .cards-wrapper {
   display: grid;
   justify-content: center;
@@ -122,6 +125,7 @@ a {
   background: #ddd;
   width: 250%;
   height: 250%;
+  
 }
 
 .pCard:after {

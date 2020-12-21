@@ -28,12 +28,14 @@ function PCard() {
   <div className="card-grid-space">
     
     <a className="pCard" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"> 
+              
       <div>
-        <h1>Basic types of HTML tags</h1>
-        <p>Learn about some of the most common HTML tags…</p>
-        <div className="date">9 Oct 2017</div>
+        <h1>E-Commerce Store</h1>
+        <p>Shop around, add items to your cart, and checkout!</p>
+        <div className="date">9 Nov 2020</div>
         <div className="tags">
-          <div className="tag">HTML</div>
+          <div className="tag">Javascript</div>
+          <div className="tag">React</div>
         </div>
       </div>
     </a>
