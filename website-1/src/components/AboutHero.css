@@ -10,6 +10,22 @@ html {
   height: 100%;
 }
 
+.resumeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+
+}
+
+.letterButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
