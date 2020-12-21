@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './AboutHero.css';
-import { Flex } from './Flex';
+
 
 
 function AboutHero() {
@@ -14,7 +14,7 @@ function AboutHero() {
       <div class="profileinfo">
         <h1>Caitlyn Miley</h1>
         <h3>Web Devloper</h3>
-        <p class="bio">I have been programming since 2019. I am proficient in Javascript, React, HTML, CSS</p>
+        <p class="bio"> I am proficient in Javascript, React, HTML, CSS. I hold a Bachelors Of Science & Engineering and love bringing concepts to life through code!</p>
       </div>
     </div>
   </div>
