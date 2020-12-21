@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlogPage.css';
+import './Cards.css';
 import Footer from './Footer';
 
 
@@ -15,7 +15,7 @@ function Cards() {
       <div className="grid">
           <div className="card">
             <div className="card__image">
-              <img src="https://unsplash.it/400/608?image=123" alt=""></img>
+              <img src="tech6.jpg" alt=""></img>
 
               <div className="card__overlay card__overlay--indigo">
                 <div className="card__overlay-content">
@@ -38,7 +38,7 @@ function Cards() {
       <div className="grid">
           <div className="card">
             <div className="card__image">
-              <img src="https://unsplash.it/400/608?image=123" alt=""></img>
+              <img src="tech4.jpg" alt=""></img>
 
               <div className="card__overlay card__overlay--indigo">
                 <div className="card__overlay-content">
@@ -61,7 +61,7 @@ function Cards() {
       <div className="grid">
           <div className="card">
             <div className="card__image">
-              <img src="https://unsplash.it/400/300?image=100" alt=""></img>
+              <img src="tech5.jpg" alt=""></img>
 
               <div className="card__overlay card__overlay--blue">
                 <div className="card__overlay-content">
@@ -85,7 +85,7 @@ function Cards() {
       <div className="grid">
           <div className="card">
             <div className="card__image">
-              <img src="https://unsplash.it/400/300?image=200" alt=""></img>
+              <img src="tech1.jpg" alt=""></img>
 
               <div className="card__overlay card__overlay--indigo">
                 <div className="card__overlay-content">
@@ -109,7 +109,7 @@ function Cards() {
       <div className="grid">
           <div className="card">
             <div className="card__image">
-              <img src="https://unsplash.it/400/300?image=300" alt=""></img>
+              <img src="tech2.jpg" alt=""></img>
 
               <div className="card__overlay card__overlay--indigo">
                 <div className="card__overlay-content">
@@ -133,7 +133,7 @@ function Cards() {
       <div className="grid">
           <div className="card">
             <div className="card__image">
-              <img src="https://unsplash.it/400/300?image=400" alt=""></img>
+              <img src="tech3.jpg" alt=""></img>
 
               <div className="card__overlay card__overlay--blue">
                 <div className="card__overlay-content">

@@ -59,6 +59,15 @@
       width: 33.333%;
     }
   }
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
   
   .card__image {
     -webkit-border-radius: 3px;
