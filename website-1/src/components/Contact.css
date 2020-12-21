@@ -8,7 +8,7 @@
 }
   
  .newContainer {
-  background-image: linear-gradient(to right,  rgb(173, 149, 12), hsl(56, 95%, 50%),  rgb(173, 149, 12));
+  background-color: #39b7dd;
   overflow-y: scroll;
   overflow: hidden;
   padding-top: 70%;
