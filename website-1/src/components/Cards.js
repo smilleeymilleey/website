@@ -160,7 +160,7 @@ function Cards() {
 
 
 </div>
-<Footer />
+
 </div>
 
 
