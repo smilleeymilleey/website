@@ -1,1 +1,1 @@
-https://caitlynmiley.netlify.app/services
+https://caitlynmiley.netlify.app
