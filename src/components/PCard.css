@@ -3,6 +3,8 @@
 :root {
   --color: #39b7dd;;
   --transition-time: 0.5s;
+  --display: flex;
+  --flex-direction: center;
 }
 
 * {

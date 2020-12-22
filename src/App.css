@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.backbody {
+  display: flex;
+  height: auto;
+  width: 100%;
+  position: sticky;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .App-logo {

@@ -54,6 +54,8 @@ a.social-icon-link.linkedin {
 .footer-subscription-heading {
   margin-bottom: 24px;
   font-size: 24px;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-subscription-text {
