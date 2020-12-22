@@ -7,7 +7,7 @@ import PCard from '../PCard';
 
 
 
-const Projects = ( ) => {
+const Products = ( ) => {
   return (
    <div>
      <PCard />
@@ -18,4 +18,4 @@ const Projects = ( ) => {
    </div>
   );
 };
-export default Projects;
+export default Products;
